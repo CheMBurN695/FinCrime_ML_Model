@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e602e7d3-58f3-479d-bcbd-a576d63ddaff" name="Changes" comment="Init" />
+    <list default="true" id="e602e7d3-58f3-479d-bcbd-a576d63ddaff" name="Changes" comment="Dataset">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Big_Black_Money_Dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FC_ML_Model_NB.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FC_ML_Model_NB.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +72,7 @@
       <updated>1734881902113</updated>
       <workItem from="1734881903346" duration="1068000" />
       <workItem from="1734884880196" duration="206000" />
-      <workItem from="1734886133340" duration="299000" />
+      <workItem from="1734886133340" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -102,7 +106,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734886381279</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge+">
+      <option name="closed" value="true" />
+      <created>1734886486795</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734886486795</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Dataset">
+      <option name="closed" value="true" />
+      <created>1734886732180</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734886732180</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +153,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Merge+" />
+    <MESSAGE value="Dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dataset" />
   </component>
 </project>
