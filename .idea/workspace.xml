@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e602e7d3-58f3-479d-bcbd-a576d63ddaff" name="Changes" comment="Update raw links">
+    <list default="true" id="e602e7d3-58f3-479d-bcbd-a576d63ddaff" name="Changes" comment="Progress - retcon some stuff">
+      <change afterPath="$PROJECT_DIR$/IBM_Dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Splitter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FC_ML_Model_NB.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FC_ML_Model_NB.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +82,7 @@
       <workItem from="1734881903346" duration="1068000" />
       <workItem from="1734884880196" duration="206000" />
       <workItem from="1734886133340" duration="6374000" />
-      <workItem from="1734892582570" duration="8766000" />
+      <workItem from="1734892582570" duration="17383000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -226,7 +228,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734901619399</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Progress">
+      <option name="closed" value="true" />
+      <created>1734902863966</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1734902863966</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Progress - retcon some stuff">
+      <option name="closed" value="true" />
+      <created>1734906728788</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1734906728788</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,9 +288,11 @@
     <MESSAGE value="Update dataset with classification" />
     <MESSAGE value="Add files" />
     <MESSAGE value="Update raw links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update raw links" />
+    <MESSAGE value="Progress" />
+    <MESSAGE value="Progress - retcon some stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progress - retcon some stuff" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FinCrime_ML_Model$Data_Splitter.coverage" NAME="Data_Splitter Coverage Results" MODIFIED="1734901479859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FinCrime_ML_Model$Data_Splitter.coverage" NAME="Data_Splitter Coverage Results" MODIFIED="1734911392832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
