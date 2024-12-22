@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e602e7d3-58f3-479d-bcbd-a576d63ddaff" name="Changes" comment="Dataset + pandas">
+    <list default="true" id="e602e7d3-58f3-479d-bcbd-a576d63ddaff" name="Changes" comment="matplot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FC_ML_Model_NB.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FC_ML_Model_NB.ipynb" afterDir="false" />
     </list>
@@ -71,7 +71,7 @@
       <updated>1734881902113</updated>
       <workItem from="1734881903346" duration="1068000" />
       <workItem from="1734884880196" duration="206000" />
-      <workItem from="1734886133340" duration="1808000" />
+      <workItem from="1734886133340" duration="5644000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -129,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734887659139</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="matplot">
+      <option name="closed" value="true" />
+      <created>1734888168557</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734888168557</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +171,7 @@
     <MESSAGE value="Merge+" />
     <MESSAGE value="Dataset" />
     <MESSAGE value="Dataset + pandas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dataset + pandas" />
+    <MESSAGE value="matplot" />
+    <option name="LAST_COMMIT_MESSAGE" value="matplot" />
   </component>
 </project>
