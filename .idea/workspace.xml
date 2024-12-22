@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e602e7d3-58f3-479d-bcbd-a576d63ddaff" name="Changes" comment="Encode training">
+    <list default="true" id="e602e7d3-58f3-479d-bcbd-a576d63ddaff" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Splitter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FC_ML_Model_NB.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FC_ML_Model_NB.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing_Dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Testing_Dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Training_Dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Training_Dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trnx_Dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Trnx_Dataset.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +84,7 @@
       <workItem from="1734881903346" duration="1068000" />
       <workItem from="1734884880196" duration="206000" />
       <workItem from="1734886133340" duration="6374000" />
-      <workItem from="1734892582570" duration="6785000" />
+      <workItem from="1734892582570" duration="7684000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -194,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734897983957</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update">
+      <option name="closed" value="true" />
+      <created>1734900619597</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734900619597</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +246,8 @@
     <MESSAGE value="testing+training dataset" />
     <MESSAGE value="Update raws" />
     <MESSAGE value="Encode training" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encode training" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinCrime_ML_Model$Data_Splitter.coverage" NAME="Data_Splitter Coverage Results" MODIFIED="1734893136605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

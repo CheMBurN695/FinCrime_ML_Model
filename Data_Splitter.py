@@ -15,12 +15,12 @@ def split_training_testing_samples(_dataset_file):
     training_data = rows[:split_index]
     testing_data = rows[split_index:]
 
-    with open(testing_dataset, 'w', newline='') as csvfile:
+    with open(training_dataset, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(header)
         writer.writerows(training_data)
 
-    with open(training_dataset, 'w', newline='') as csvfile:
+    with open(testing_dataset, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(header)
         writer.writerows(testing_data)
