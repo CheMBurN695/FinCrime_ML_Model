@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e602e7d3-58f3-479d-bcbd-a576d63ddaff" name="Changes" comment="Data cleaning">
+    <list default="true" id="e602e7d3-58f3-479d-bcbd-a576d63ddaff" name="Changes" comment="Split dataset">
       <change afterPath="$PROJECT_DIR$/Unversioned_Helpers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Splitter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FC_ML_Model_NB.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FC_ML_Model_NB.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trnx_Dataset _v2.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,8 @@
       <workItem from="1734881903346" duration="1068000" />
       <workItem from="1734884880196" duration="206000" />
       <workItem from="1734886133340" duration="6374000" />
-      <workItem from="1734892582570" duration="17631000" />
+      <workItem from="1734892582570" duration="18185000" />
+      <workItem from="1734967728480" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -251,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734911797758</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Update splitters">
+      <option name="closed" value="true" />
+      <created>1734911902608</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1734911902608</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Split dataset">
+      <option name="closed" value="true" />
+      <created>1734912448524</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1734912448524</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,9 +317,11 @@
     <MESSAGE value="Progress" />
     <MESSAGE value="Progress - retcon some stuff" />
     <MESSAGE value="Data cleaning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data cleaning" />
+    <MESSAGE value="Update splitters" />
+    <MESSAGE value="Split dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Split dataset" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FinCrime_ML_Model$Data_Splitter.coverage" NAME="Data_Splitter Coverage Results" MODIFIED="1734911650040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FinCrime_ML_Model$Data_Splitter.coverage" NAME="Data_Splitter Coverage Results" MODIFIED="1734912021212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

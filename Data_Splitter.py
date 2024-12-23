@@ -25,6 +25,6 @@ def split_training_testing_samples(_dataset_file):
         writer.writerow(header)
         writer.writerows(testing_data)
 
-datasetFile = "Trnx_Dataset _v2.csv"
+datasetFile = "Trnx_Dataset_v2.csv"
 split_training_testing_samples(datasetFile)
 
