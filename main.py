@@ -8,12 +8,15 @@ from sklearn.metrics import classification_report, accuracy_score
 from sklearn.preprocessing import LabelEncoder
 import numpy as npy
 
-dataset_URL = "https://raw.githubusercontent.com/CheMBurN695/FinCrime_ML_Model/refs/heads/master/Trnx_Dataset.csv?token=GHSAT0AAAAAACYPUMUJT3IM6CAWCKWPPIDEZ3IRX6Q"
-testing_dataset_URL = "https://raw.githubusercontent.com/CheMBurN695/FinCrime_ML_Model/refs/heads/master/Testing_Dataset.csv?token=GHSAT0AAAAAACYPUMUI6IF7VZEW3IITYWSWZ3ITRMA"
-training_dataset_URL = "https://raw.githubusercontent.com/CheMBurN695/FinCrime_ML_Model/refs/heads/master/Training_Dataset.csv?token=GHSAT0AAAAAACYPUMUJW4YEFAPCRGSUTEZMZ3ITQ6Q"
-dataFrame = pd.read_csv("data/Trnx_Dataset_v2.csv")
-training_dataFrame = pd.read_csv("data/Training_Dataset.csv")
-testing_dataFrame = pd.read_csv("data/Testing_Dataset.csv")
+dataset_URL = "https://raw.githubusercontent.com/CheMBurN695/FinCrime_ML_Model/refs/heads/master/data/Trnx_Dataset_v2.csv"
+testing_dataset_URL = "https://raw.githubusercontent.com/CheMBurN695/FinCrime_ML_Model/refs/heads/master/data/Testing_Dataset.csv"
+training_dataset_URL = "https://raw.githubusercontent.com/CheMBurN695/FinCrime_ML_Model/refs/heads/master/data/Training_Dataset.csv"
+dataFrame = pd.read_csv(dataset_URL)
+testing_dataFrame = pd.read_csv(testing_dataset_URL)
+training_dataFrame = pd.read_csv(testing_dataset_URL)
+# dataFrame = pd.read_csv("data/Trnx_Dataset_v2.csv")
+# training_dataFrame = pd.read_csv("data/Training_Dataset.csv")
+# testing_dataFrame = pd.read_csv("data/Testing_Dataset.csv")
 
 country_count = dataFrame.groupby(["Country"]).size()
 illegal_trnxs = dataFrame['Source of Money'] == "Illegal"
