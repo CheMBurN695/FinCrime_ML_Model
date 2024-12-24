@@ -19,6 +19,7 @@ To make this more accessible, I created an interactive user interface in Jupyter
 | Macro avg    | 0.77      | 0.77   | 0.77     | 2000    |
 | Weighted avg | 0.79      | 0.79   | 0.79     | 2000    |
 
+![Model Performance](images/rf.png)
 ---
 
 ### Logistic Regression
@@ -33,3 +34,20 @@ To make this more accessible, I created an interactive user interface in Jupyter
 | **Accuracy** |           |        | **0.66** | 2000    |
 | Macro avg    | 0.60      | 0.55   | 0.53     | 2000    |
 | Weighted avg | 0.63      | 0.66   | 0.61     | 2000    |
+
+![Model Performance](images/Logi.png)
+
+---
+
+## Correlation matrix
+
+![Correlation Matrix](images/cm.png)
+
+---
+
+## Technologies
+Skit-learn, Pandas, Numpy, Matplotlib, Seaborn, Ipywidgets, Jupyter Notebook
+
+## Installation
+Hosted on google collab:
+https://colab.research.google.com/github/CheMBurN695/FinCrime_ML_Model/blob/master/FC_ML_Model_NB.ipynb#scrollTo=71af7b2bbe6beacb
