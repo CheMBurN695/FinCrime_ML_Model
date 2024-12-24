@@ -46,6 +46,7 @@ To make this more accessible, I created an interactive user interface in Jupyter
 ---
 
 ## Technologies
+Python 3.12,
 Skit-learn, Pandas, Numpy, Matplotlib, Seaborn, Ipywidgets, Jupyter Notebook
 
 ## Installation
