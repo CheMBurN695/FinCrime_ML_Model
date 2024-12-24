@@ -1,8 +1,8 @@
 import csv
 import random
 
-testing_dataset = "Testing_Dataset.csv"
-training_dataset = "Training_Dataset.csv"
+testing_dataset = "data/Testing_Dataset.csv"
+training_dataset = "data/Training_Dataset.csv"
 
 def split_training_testing_samples(_dataset_file):
     with open(_dataset_file, newline='') as csvfile:
@@ -25,6 +25,6 @@ def split_training_testing_samples(_dataset_file):
         writer.writerow(header)
         writer.writerows(testing_data)
 
-datasetFile = "Trnx_Dataset_v2.csv"
+datasetFile = "data/Trnx_Dataset_v2.csv"
 split_training_testing_samples(datasetFile)
 
