@@ -4,27 +4,32 @@ Logistic Regression was chosen as the baseline due to its simplicity for binary 
 
 To make this more accessible, I created an interactive user interface in Jupyter Notebook using ipywidgets, allowing users to input transaction details and get real-time risk predictions.
 
-Random Forests
+## Model Performance
 
-Accuracy: 0.7915
-Classification Report:
-               precision    recall  f1-score   support
+### Random Forest Classifier
 
-           0       0.85      0.83      0.84      1320
-           1       0.69      0.71      0.70       680
+- **Accuracy**: 0.7915
 
-    accuracy                           0.79      2000
-   macro avg       0.77      0.77      0.77      2000
-weighted avg       0.79      0.79      0.79      2000
+#### Classification Report:
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| Low Risk (0) | 0.85      | 0.83   | 0.84     | 1320    |
+| High Risk (1)| 0.69      | 0.71   | 0.70     | 680     |
+| **Accuracy** |           |        | **0.79** | 2000    |
+| Macro avg    | 0.77      | 0.77   | 0.77     | 2000    |
+| Weighted avg | 0.79      | 0.79   | 0.79     | 2000    |
 
+---
 
-Logistic Regression
+### Logistic Regression
 
-              precision    recall  f1-score   support
+- **Accuracy**: 0.66
 
-    Low Risk       0.68      0.91      0.78      1320
-   High Risk       0.52      0.19      0.27       680
-
-    accuracy                           0.66      2000
-   macro avg       0.60      0.55      0.53      2000
-weighted avg       0.63      0.66      0.61      2000
+#### Classification Report:
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| Low Risk     | 0.68      | 0.91   | 0.78     | 1320    |
+| High Risk    | 0.52      | 0.19   | 0.27     | 680     |
+| **Accuracy** |           |        | **0.66** | 2000    |
+| Macro avg    | 0.60      | 0.55   | 0.53     | 2000    |
+| Weighted avg | 0.63      | 0.66   | 0.61     | 2000    |
